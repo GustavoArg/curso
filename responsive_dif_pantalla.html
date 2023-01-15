@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  background-color: red;
+}
+
+p {
+	color: yellow;
+}
+/**aca por ejemplo se debe programar el elem p en el body y en media queri para pantalla hasta 600px _ asi se deberia hacer tantas veces como tamaño de pantalla querramos definir */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: grey;
+  }
+  
+  p {
+  	color: green;
+  }
+}
+</style>
+</head>
+<body>
+<!--asi se hacen comentario en body..en head es con barra asterisco x 2-->
+<p>Resize the browser window. When the width of this document is 600 pixels or less, the background-color is "lightblue", otherwise it is "lightgreen".</p>
+
+</body>
+</html>
