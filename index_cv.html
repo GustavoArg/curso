@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos_cv.css" />
+    <title>Trabajo_1_CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="imagenes/foto_cv_transparente.png">    
+        <h1>Steven Paul Jobs - Programador WEB Juniors</h1>    
+    </div>
+    
+    <div class="menu">
+        <h2>VISION PERSONAL</h2>
+        <p>
+            “Estoy buscando un espacio que se necesite reparar con una base sólida. Estoy dispuesto a derribar muros, construir puentes y encender fuegos. Tengo una gran experiencia, mucha energía, un poco de esa ‘visión’ y no tengo miedo de comenzar desde el principio”.
+
+Ideas complejas, en frases simples
+        </p>
+        <h2>DATOS DE CONTACTO</h2>
+        <ul>
+            <li><img src="imagenes/icon_nombre1.jpg" alt="icono nombre">  Steven Paul Jobs</li>
+            <li><img src="imagenes/icon_dire1.jpg" alt="icono dirección">  Av. de los alamos 248 Norte - CABA</li>
+            <li><img src="imagenes/icon_tel1.jpg" alt="icono telefono">    +54 9 555 444 1234</li>
+            <li><img src="imagenes/icon_mail1.jpg" alt="icono mail">   steve@mac.com</li>
+            <li><img src="imagenes/icon_web1.jpg" alt="icono sitio web">   www.mac.com</li>
+        </ul>
+        <h2>OTROS DATOS</h2>
+        <p>
+            Miembro de la Academia Estadounidense de las Artes y las Ciencias
+        </p>
+        <p id="demo"></p>
+
+        <button type="button" id="boton">ver Info</button>
+
+    </div>
+    <div class="main">
+        <article id="arriba"></article>
+        <h2>ESTUDIOS CURSADOS</h2>
+        <p>
+            Preparatoria Homestead 1968 - 1972          
+        </p>
+        <p>
+            Reed College, portland, Oregon 1972 - 1974 
+        </p>
+        <h2>EXPERIENCIA LABORAL</h2>
+        <nav>
+            <p><a href="#apple_vinculo">Apple Computer- INC 1997 - 2011</a></p>
+            <p><a href="#pixar_vinculo">Pixar Animations Studios 1986 - 2011</a></p>
+            <p><a href="#next_vinculo">NeXT Software Inc. 1986 - 1997</a></p>
+            <p><a href="#apple_computer_inc_vinculo">Apple Computer Inc. 1976 - 1986</a></p>
+        </nav>
+        
+        <article id="apple_vinculo">
+            <h3>Apple Computer- INC 1997 - 2011</h3>
+            <p>
+                Ayudé a la empresa a crear una vez más productos fenomenales como iMac, iBook, G4, PowerBook, iTools, iMovie, Mac OS X, iTunes, iPod, iPhoto, etc.
+                Parte del equipo que posicionó a la empresa para iniciar (una vez más) en Internet, en 2002 y más allá. Creamos computadoras que son divertidas, poderosas y fáciles de usar
+            </p>
+            <button type="button" id="apple_boton">ver Info</button>
+            <p id="apple"></p>
+        </article>
+
+        <article id="pixar_vinculo">
+            <h3>Pixar Animations Studios 1986 - 2011</h3>
+            <p>
+                Descubrí una pequeña empresa de animación que necesitaba una visión. Lamí tanto el producto que compré la Compañía. Pixar es ahora “el estudio de animación digital”. Hemos creado y producido la mitad de las películas animadas más taquilleras de todos los tiempos, entre ellas: Toy Story, Bichos, Toy Story 2 y Moster, Inc.
+            </p>
+            <button type="button" id="pixar_boton">ver Info</button>
+            <p id="pixar"></p>
+        </article>
+
+        <article id="next_vinculo">
+            <h3>NeXT Software Inc. 1986 - 1997</h3>
+            <p>            
+                Fundó NeXT software Inc., que creó un hardware realmente genial que explotó todo el potencial de las tecnologías orientadas a objetos. Las tecnologías NeXT hicieron que los programadores (y los usuarios) tuvieran una vida mucho más fácil, brindándoles así más tiempo libre para ir a ver el último lanzamiento de Pixar.
+                Vendido NeXT a Apple en 1997
+            </p>
+            <button type="button" id="next_boton">ver Info</button>
+            <p id="next"></p>
+        </article>
+
+        <article id="apple_computer_inc_vinculo">
+            <h3>Apple Computer Inc. 1976 - 1986</h3>
+            <p>
+                Invertí mucho en la financiación de una empresa nueva (vendí mi minibús vW)
+                Apple inició la revolución de las computadoras personales con un producto "increíblemente genial" como el Apple II. Hicimos pública la Compañía en 1980 a $ 22 por acción, luego, en 1984, reinventamos la computadora personal con Macintosh.
+                Aprendí muchas cosas, incluyendo qué hacer y qué no hacer para construir equipos ejecutivos.
+                Se fue en 1986 para decidir qué paso dar NeXT
+            </p>
+            <button type="button" id="apple_computer_inc_boton">ver Info</button>
+            <p id="apple_computer_inc"></p>
+        </article>
+        <p><a href="#arriba">Ir arriba</a></p>    
+    </div>
+    <button type="button" id="boton_modo_oscuro">Modo Oscuro</button>
+    <script src="js/function_cv.js"> </script>
+</body>
+</html>

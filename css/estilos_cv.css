@@ -1,0 +1,37 @@
+/**#demo{
+    color: yellow;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid lightblue;
+    padding: 15px;
+    color: darkblue;
+    background-color: cornflowerblue;
+}
+.menu {
+    width: 45%;
+    float: left;
+    padding: 15px;
+    border: 1px solid lightgreen;
+    color: brown;
+}
+.main {
+    width: 55%;
+    float: left;
+    padding: 15px;
+    border: 1px solid lightseagreen;
+    color: blueviolet;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
